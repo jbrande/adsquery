@@ -19,6 +19,6 @@ The script can be run by the command "python adsquery.py YYYY", where YYYY is an
 
 ### Outputs:
 The output is a text file (publications.txt) containing the returned papers in a particular file format:
-- Title|Abstract|<First Author> et al.|Contributing Authors: <list>|Journal|Year|URL
+- Title|Abstract|First Author et al.|Contributing Authors: List of Authors|Journal|Year|URL
 
 Each entry is printed on a new line, which can then be parsed to get individual entries on the SEEC website.
