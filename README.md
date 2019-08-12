@@ -12,7 +12,7 @@ Originally, this was written to query all papers by the members of the Sellers E
 - unicodedata	(Python Standard Library)
 - sys 			(Python Standard Library)
 
-This script also requires the presence of a file containing the ADS API key. This key should not be exposed to non-SEEC users (i.e. accidentally uploaded to GitHub or other public repositories). If this happens, generate a new API key by following the instructions at the ADS website (IIRC, this needs to happen while logged in to the ADS site under the SEEC account). Currently, the script expects the file location "~/.ads/dev_key", where "dev_key" is a file containing only the API key.
+This script also requires the presence of a file containing the ADS API key. This key should not be exposed to public users (i.e. accidentally uploaded to GitHub or other public repositories). If this happens, generate a new API key by following the instructions at the ADS website. Currently, the script expects the file location "~/.ads/dev_key", where "dev_key" is a file containing only the API key.
 
 ### Usage:
 The script can be run by the command "python adsquery.py YYYY", where YYYY is an optional argument specifying the 4 digit year to search. If no year is given, the script will automatically search the current year.
