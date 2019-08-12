@@ -21,4 +21,4 @@ The script can be run by the command "python adsquery.py YYYY", where YYYY is an
 The output is a text file (publications.txt) containing the returned papers in a particular file format:
 - Title|Abstract|First Author et al.|Contributing Authors: List of Authors|Journal|Year|URL
 
-Each entry is printed on a new line, which can then be parsed to get individual entries on the SEEC website.
+Each entry is printed on a new line, which can then be parsed to get individual entries on a CV or personal website. Modification of this script to give BibTeX entries or other bibliographic formats based on the ADS query terms. 
